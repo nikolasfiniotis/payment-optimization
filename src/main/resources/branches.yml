@@ -1,0 +1,15 @@
+branches-config:
+  branches:
+    - name: A
+      cost: 5
+    - name: B
+      cost: 50
+    - name: C
+      cost: 10
+    - name: D
+      cost: 10
+    - name: E
+      cost: 20
+    - name: F
+      cost: 5
+

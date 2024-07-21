@@ -1,0 +1,16 @@
+spring:
+  config:
+    import: classpath:branches.yml,classpath:edges.yml
+  application:
+    name: payment-optimization
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    org:
+      springdoc: DEBUG
